@@ -3,7 +3,8 @@
 // Should add ある and いる.
 
 var words = {
-
+  "落とす":       { "group": "godan",        "dictionary": "落[お]とす", },
+/*
   "走る":       { "group": "godan",        "dictionary": "走[はし]る", },
   "死ぬ":       { "group": "godan",        "dictionary": "死[し]ぬ", },
   "上る":       { "group": "godan",        "dictionary": "上[のぼ]る", },
@@ -29,7 +30,10 @@ var words = {
   "足す":       { "group": "godan",        "dictionary": "足[た]す", },
   "歌う":       { "group": "godan",        "dictionary": "歌[うた]う", },
   "買う":       { "group": "godan",        "dictionary": "買[か]う", },
+  */
 
+  "終える":     { "group": "ichidan",      "dictionary": "終[お]える", },
+  /*
   "上げる":     { "group": "ichidan",      "dictionary": "上[あ]げる", },
   "着る":       { "group": "ichidan",      "dictionary": "着[き]る", },
   "育てる":     { "group": "ichidan",      "dictionary": "育[そだ]てる", },
@@ -39,14 +43,16 @@ var words = {
   "起きる":     { "group": "ichidan",      "dictionary": "起[お]きる", },
   "買い換える": { "group": "ichidan",      "dictionary": "買[か]い換[か]える", },
   "買い与える": { "group": "ichidan",      "dictionary": "買[か]い与[あた]える", },
-
+*/
   "行く":       { "group": "iku",          "dictionary": "行[い]く", },
 
   "する":       { "group": "suru",         "dictionary": "する", },
   "勉強する":   { "group": "suru",         "dictionary": "勉[べん]強[きょう]する", },
   "電話する":   { "group": "suru",         "dictionary": "電[でん]話[わ]する", },
+  /*
   "開発する":   { "group": "suru",         "dictionary": "開[かい]発[はつ]する", },
   "計算する":   { "group": "suru",         "dictionary": "計[けい]算[さん]する", },
+  */
 
   "来る":       { "group": "kuru",         "dictionary": "来[く]る", },
 
@@ -54,7 +60,7 @@ var words = {
   "面白い":     { "group": "i-adjective",  "dictionary": "面[おも]白[しろ]い", },
   "暗い":       { "group": "i-adjective",  "dictionary": "暗[くら]い", },
   "暖かい":     { "group": "i-adjective",  "dictionary": "暖[あたた]かい", },
-  "華々しい":   { "group": "i-adjective",  "dictionary": "華[はな]々[ばな]しい", },
+  //"華々しい":   { "group": "i-adjective",  "dictionary": "華[はな]々[ばな]しい", },
   "怖い":       { "group": "i-adjective",  "dictionary": "怖[こわ]い", },
   "硬い":       { "group": "i-adjective",  "dictionary": "硬[かた]い", },
 
@@ -63,11 +69,11 @@ var words = {
   "有名":       { "group": "na-adjective", "dictionary": "有[ゆう]名[めい]だ", },
   "好き":       { "group": "na-adjective", "dictionary": "好[す]きだ", },
   "元気":       { "group": "na-adjective", "dictionary": "元[げん]気[き]だ", },
-  "意地悪":     { "group": "na-adjective", "dictionary": "意[い]地[じ]悪[わる]だ", },
+  //"意地悪":     { "group": "na-adjective", "dictionary": "意[い]地[じ]悪[わる]だ", },
   "静":         { "group": "na-adjective", "dictionary": "静[しず]かだ", },
   "便利":       { "group": "na-adjective", "dictionary": "便[べん]利[り]だ", },
   "上手":       { "group": "na-adjective", "dictionary": "上[じょう]手[ず]だ", },
-  "幸い":       { "group": "na-adjective", "dictionary": "幸[さいわ]いだ", },
+  //"幸い":       { "group": "na-adjective", "dictionary": "幸[さいわ]いだ", },*/
 };
 
 var rules = {
